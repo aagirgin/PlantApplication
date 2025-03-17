@@ -1,22 +1,17 @@
 package com.example.hubxapplication.presentation.onboarding
 
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import com.example.hubxapplication.R
 import com.example.hubxapplication.databinding.FragmentOnBoardingBinding
 import com.example.hubxapplication.presentation.onboarding.adapter.OnboardingAdapter
-import com.example.hubxapplication.presentation.onboarding.state.OnboardingUiState
 import com.google.android.material.tabs.TabLayoutMediator
 import dagger.hilt.android.AndroidEntryPoint
-import kotlinx.coroutines.launch
 
 
 @AndroidEntryPoint
@@ -27,7 +22,7 @@ class OnBoardingFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         binding = FragmentOnBoardingBinding.inflate(inflater, container, false)
         bindUi()
         return binding.root

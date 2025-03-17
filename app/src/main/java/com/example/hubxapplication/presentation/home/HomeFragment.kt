@@ -1,22 +1,17 @@
 package com.example.hubxapplication.presentation.home
 
 import android.content.Context
-import android.graphics.Color
-import android.graphics.Rect
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.view.ViewTreeObserver
 import android.widget.Toast
-import androidx.cardview.widget.CardView
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import com.example.hubxapplication.R
 import com.example.hubxapplication.databinding.FragmentHomeBinding
 import com.example.hubxapplication.domain.model.Categories
@@ -37,7 +32,7 @@ class HomeFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
 
         binding = FragmentHomeBinding.inflate(inflater, container, false)
         initializeListeners()

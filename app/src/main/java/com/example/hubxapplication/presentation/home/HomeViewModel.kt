@@ -2,15 +2,11 @@ package com.example.hubxapplication.presentation.home
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.hubxapplication.R
 import com.example.hubxapplication.common.Resource
-import com.example.hubxapplication.domain.model.Categories
-import com.example.hubxapplication.domain.model.Questions
 import com.example.hubxapplication.domain.usecase.GetCategoriesUseCase
 import com.example.hubxapplication.domain.usecase.GetQuestionsUseCase
 import com.example.hubxapplication.presentation.home.state.CategoriesUiState
 import com.example.hubxapplication.presentation.home.state.QuestionsUiState
-import com.example.hubxapplication.presentation.onboarding.model.OnboardingUiModel
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow

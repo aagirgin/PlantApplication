@@ -4,7 +4,6 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.hubxapplication.databinding.PaywallHorizontalRecyclerViewItemBinding
-import com.example.hubxapplication.databinding.ViewPagerOnboardingItemBinding
 import com.example.hubxapplication.presentation.paywall.model.PaywallRcUiModel
 
 

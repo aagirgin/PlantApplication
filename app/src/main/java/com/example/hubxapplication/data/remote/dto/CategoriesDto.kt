@@ -6,7 +6,6 @@ import com.example.hubxapplication.domain.model.CategoriesData
 import com.example.hubxapplication.domain.model.CategoriesImage
 import com.example.hubxapplication.domain.model.CategoriesMeta
 import com.example.hubxapplication.domain.model.CategoriesPagination
-import com.example.hubxapplication.domain.model.Questions
 import com.google.gson.annotations.SerializedName
 
 
