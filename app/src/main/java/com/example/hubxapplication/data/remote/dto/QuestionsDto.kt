@@ -16,11 +16,11 @@ data class QuestionsDto(
 
 fun QuestionsDto.toQuestions(): Questions {
     return Questions(
-        id = id ?: -1,
-        imageUrl = imageUri.orEmpty(),
-        order = order ?: -1,
-        subtitle = subtitle.orEmpty(),
-        title = title.orEmpty(),
-        uri = uri.orEmpty()
+        id = id,
+        imageUrl = imageUri,
+        order = order,
+        subtitle = subtitle,
+        title = title,
+        uri = uri
     )
 }

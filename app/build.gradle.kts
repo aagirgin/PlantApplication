@@ -48,8 +48,7 @@ kapt {
 }
 
 dependencies {
-    //implementation(libs.viewpagerdotsindicator)
-    implementation("com.facebook.shimmer:shimmer:0.5.0")
+    implementation(libs.shimmer)
     implementation(libs.logging.interceptor)
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
     debugImplementation(libs.library)

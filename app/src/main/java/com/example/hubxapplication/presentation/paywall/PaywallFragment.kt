@@ -8,14 +8,9 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
-
 import com.example.hubxapplication.R
-import com.example.hubxapplication.databinding.FragmentOnBoardingBinding
 import com.example.hubxapplication.databinding.FragmentPaywallBinding
-import com.example.hubxapplication.presentation.onboarding.OnBoardingViewModel
 import com.example.hubxapplication.presentation.paywall.adapter.PaywallRcAdapter
-import com.example.hubxapplication.presentation.paywall.model.PaywallRcUiModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -27,7 +22,7 @@ class PaywallFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         // Inflate the layout first
         binding = FragmentPaywallBinding.inflate(inflater, container, false)
         return binding.root

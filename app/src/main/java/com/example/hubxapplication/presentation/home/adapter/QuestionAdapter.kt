@@ -6,7 +6,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import androidx.core.net.toUri
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.hubxapplication.R
@@ -45,9 +44,4 @@ class QuestionAdapter(
         return questionList.size
     }
 
-    @SuppressLint("NotifyDataSetChanged")
-    fun updateData(newList: List<Questions>) {
-        questionList = newList
-        notifyDataSetChanged()
-    }
 }

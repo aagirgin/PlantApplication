@@ -25,25 +25,17 @@ class CategoriesAdapter(private var categoriesList: List<CategoriesData>, privat
         holder.bind(category)
         holder.setCardViewHeight()
         holder.itemView.setOnClickListener {
-            onItemClick(category) // Trigger the callback when an item is clicked
+            onItemClick(category)
         }
     }
 
     override fun getItemCount(): Int = categoriesList.size
 
-    @SuppressLint("NotifyDataSetChanged")
-    fun updateData(newList: List<CategoriesData>) {
-        categoriesList = newList
-        notifyDataSetChanged()
-    }
-
-    // ViewHolder class
     class CategoriesViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         private val title: TextView = itemView.findViewById(R.id.rc_item_txt)
         private val image: ImageView = itemView.findViewById(R.id.rc_img_item_view)
         private val cardView: CardView = itemView.findViewById(R.id.card_view)
 
-        // Binding data to the views
         fun bind(category: CategoriesData) {
             title.text = category.title
             Glide.with(itemView.context)
@@ -51,13 +43,9 @@ class CategoriesAdapter(private var categoriesList: List<CategoriesData>, privat
                 .into(image)
         }
 
-        // This function will dynamically set the height of the CardView to match its width
         fun setCardViewHeight() {
-            // We use the viewTreeObserver to listen for layout changes and calculate width
             cardView.viewTreeObserver.addOnGlobalLayoutListener {
                 val width = cardView.width
-
-                // Calculate the layout params and set the height to be the same as width
                 val layoutParams = cardView.layoutParams
                 layoutParams.height = width
                 cardView.layoutParams = layoutParams

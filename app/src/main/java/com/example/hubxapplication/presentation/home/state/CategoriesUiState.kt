@@ -1,7 +1,6 @@
 package com.example.hubxapplication.presentation.home.state
 
 import com.example.hubxapplication.domain.model.Categories
-import com.example.hubxapplication.domain.model.Questions
 
 sealed interface CategoriesUiState {
     data class Success(val data: Categories): CategoriesUiState
