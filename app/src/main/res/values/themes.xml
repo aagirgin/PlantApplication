@@ -1,0 +1,65 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.HubXApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="PrimaryButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/roundedstylebutton</item>
+        <item name="backgroundTint">@color/button_green</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+    </style>
+
+
+    <style name="InfoTextViewStyle">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@color/info_text_color</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="WelcomeTitleStyle">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/welcome_text_color</item>
+    </style>
+
+    <style name="GreetingTitleStyle">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/welcome_text_color</item>
+    </style>
+
+    <style name="GreetingSubtitleStyle">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/welcome_text_color</item>
+    </style>
+
+    <style name="OnboardingTitleStyle">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/welcome_text_color</item>
+    </style>
+
+    <style name="MailButtonTextStyle">
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/mail_yellow</item>
+    </style>
+
+    <style name="MailButtonSubtitleTextStyle">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/mail_yellow_light</item>
+    </style>
+
+    <style name="Theme.HubXApplication" parent="Base.Theme.HubXApplication" />
+</resources>

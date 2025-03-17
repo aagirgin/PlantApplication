@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="button_green">#FF28AF6E</color>
+    <color name="info_text_color">#597165B2</color>
+    <color name="welcome_text_color">#13231B</color>
+    <color name="mail_yellow">#E4B046</color>
+    <color name="mail_yellow_light">#E5C990</color>
+    <color name="mail_background_dark">#24201A</color>
+    <color name="welcome_text_color_alpha25">#4013231B</color>
+    <color name="background_paywall">#101E17</color>
+    <color name="background_paywall_card">#233029</color>
+</resources>

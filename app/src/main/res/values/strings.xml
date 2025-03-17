@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">HubXApplication</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="flower_image">Flower Image</string>
+    <string name="get_started_btn_text">Get Started</string>
+    <string name="info_txt"><![CDATA[By tapping next, you are agreeing to PlantID Terms of Use & Privacy Policy.]]></string>
+    <string name="welcome_subtitle_txt">Identify more than 3000+ plants and 88% accuracy.</string>
+    <string name="welcome_to_plantapp">Welcome to PlantApp</string>
+    <string name="continue_btn_txt">Continue</string>
+    <string name="info_paywall_txt">After the 3-day free trial period you’ll be charged ₺274.99 per year unless you cancel before the trial expires. Yearly Subscription is Auto-Renewable</string>
+    <string name="paywall_mock_txt">Terms • Privacy • Restore</string>
+    <string name="try_free_for_3_days">Try free for 3 days</string>
+    <string name="paywall_subtitle_txt">Access All Features</string>
+    <string name="paywall_title_txt">PlantApp Premium</string>
+    <string name="mail_title_txt">FREE Premium Available</string>
+    <string name="mail_subtitle_txt">Tap to upgrade your account!</string>
+    <string name="greeting_subtitle_txt">Good Afternoon! ⛅</string>
+    <string name="greeting_title_txt">Hi, plant lover!</string>
+    <string name="paywall_title1_txt">Unlimited</string>
+    <string name="paywall_title2_txt">Faster</string>
+    <string name="paywall_title_subtitle1_txt">Unlimited</string>
+    <string name="paywall_title_subtitle2_txt">Process</string>
+    <string name="onboarding_title1_txt">Take a photo to identify the plant!</string>
+    <string name="onboarding_title2_txt">Get plant care guides</string>
+</resources>
