@@ -28,4 +28,6 @@
     <string name="paywall_title_subtitle2_txt">Process</string>
     <string name="onboarding_title1_txt">Take a photo to identify the plant!</string>
     <string name="onboarding_title2_txt">Get plant care guides</string>
+    <string name="close_button_image">Close Button Image</string>
+    <string name="splash_img">Splash</string>
 </resources>
